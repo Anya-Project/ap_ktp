@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+
+#ktp-container {
+    display: none; 
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%); 
+    width: 336px; 
+    height: 214px;  
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    overflow: hidden;
+}
+
+
+#background-layers { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+#content-layers { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; color: #1e2a38; }
+#ktp-bg-img { position: absolute; width: 100%; height: 100%; opacity: 1; }
+.header-prov, .header-kota { text-align: center; font-weight: 700; margin: 0; text-shadow: 1px 1px 2px rgba(255,255,255,0.5); position: absolute; width: 100%; }
+.header-prov { top: 10px; font-size: 11px; letter-spacing: 1px; } 
+.header-kota { top: 22px; font-size: 10px; } 
+
+.field { position: absolute; left: 16px; margin: 0; white-space: nowrap; } 
+.field span:first-child { display: inline-block; width: 85px; font-weight: 500; } 
+#nama-value, #ttl-value, #gender-value { text-transform: uppercase; font-weight: 700; }
+#nik-label { top: 52px; font-size: 11px; font-weight: 700; }
+#nik-label span#nik-value { letter-spacing: 1px; }
+#nama-label { top: 76px; font-size: 10px; }
+#ttl-label { top: 92px; font-size: 10px; }
+#gender-label { top: 108px; font-size: 10px; }
+#pekerjaan-label { top: 124px; font-size: 10px; }
+#telepon-label { top: 140px; font-size: 10px; }
+#kewarganegaraan-label { top: 156px; font-size: 10px; }
+#berlakuhingga-label { top: 172px; font-size: 10px; }
+
+
+#foto-container {
+    position: absolute;
+    top: 52px;    
+    right: 16px;   
+    width: 72px;   
+    height: 92px; 
+    border: 1.5px solid #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+    background-color: #e0e0e0;
+}
+#foto-value { width: 100%; height: 100%; object-fit: cover; }
+
+#pejabat-container {
+    position: absolute;
+    right: 8px;   
+    bottom: 6px;   
+    width: 112px;  
+    text-align: center;
+}
+.pejabat-kota, .pejabat-jabatan, .pejabat-nama { font-size: 7px; margin: 0; line-height: 1.2; }
+.pejabat-jabatan { font-weight: 700; }
+.pejabat-nama { font-weight: 700; text-decoration: underline; }
+#ttd-cap-img {
+    width: 72px; 
+    height: 36px;  
+    object-fit: contain;
+    margin: -4px 0; 
+}
+
+#berlaku-value.expired {
+    color: #d93434;
+    font-weight: 700;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}

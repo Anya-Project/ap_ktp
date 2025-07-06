@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="ktp-container">
+        <div id="background-layers">
+            <img src="img/ktp_background.png" id="ktp-bg-img" alt="Latar KTP">
+        </div>
+        <div id="content-layers">
+            <p class="header-prov">KARTU TANDA PENDUDUK</p>
+            <p class="header-kota">KOTA SUKA-SUKA</p>
+            <p class="field" id="nik-label"><span>NIK</span>: <span id="nik-value"></span></p>
+            <p class="field" id="nama-label"><span>Nama</span>: <span id="nama-value"></span></p>
+            <p class="field" id="ttl-label"><span>Tempat/Tgl Lahir</span>: <span id="ttl-value"></span></p>
+            <p class="field" id="gender-label"><span>Jenis Kelamin</span>: <span id="gender-value"></span></p>
+            <p class="field" id="pekerjaan-label"><span>Pekerjaan</span>: <span id="pekerjaan-value"></span></p>
+            <p class="field" id="telepon-label"><span>No. Telepon</span>: <span id="telepon-value"></span></p>
+            <p class="field" id="kewarganegaraan-label"><span>Kewarganegaraan</span>: <span id="kewarganegaraan-value"></span></p>
+            <p class="field" id="berlakuhingga-label"><span>Berlaku Hingga</span>: <span id="berlaku-value"></span></p>
+            <div id="foto-container"><img id="foto-value" src="" alt="Pas Foto" onerror="this.onerror=null; this.src='img/default_profile.png';"></div>
+            <div id="pejabat-container">
+                <p class="pejabat-kota">KTP ini di sahkan oleh</p>
+                <p class="pejabat-jabatan">KEPALA DINAS KEPENDUDUKAN</p>
+                <img src="img/ttd_cap.png" id="ttd-cap-img" alt="Tanda Tangan & Cap">
+                <p class="pejabat-nama">Tung Tung Kentung</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
