@@ -12,7 +12,7 @@
 *   **Perpanjangan oleh Petugas**: Petugas dapat memperpanjang masa berlaku KTP pemain dengan biaya yang dapat dikonfigurasi.
 *   **Sistem Masa Berlaku**: KTP memiliki tanggal kadaluarsa. Jika sudah lewat, status di KTP akan berubah menjadi "KADALUARSA".
 *   **Konfigurasi Mudah**: Biaya, pekerjaan yang diizinkan, dan lokasi NPC dapat diatur dengan mudah melalui `config.lua`.
-*   **Penyimpanan Data **: Semua data KTP disimpan di `metadata` 
+*   **Penyimpanan Data**: Semua data KTP disimpan di `metadata` 
 *   **Command Admin**: Dilengkapi command `/resetktp [id]` untuk mereset data KTP pemain jika diperlukan.
 
 ## Dependensi
