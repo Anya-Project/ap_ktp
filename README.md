@@ -1,5 +1,7 @@
 # AP KTP - Sistem Kartu Tanda Penduduk untuk QBCore
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H51HUE4X)
+
 `ap_ktp` adalah script FiveM untuk framework QBCore yang menghadirkan sistem Kartu Tanda Penduduk (KTP) yang imersif dan fungsional untuk server roleplay kamu. Script ini memungkinkan pemain untuk memiliki, menunjukkan, dan mengelola KTP mereka, serta memberikan peran khusus bagi petugas pemerintah (seperti polisi atau dukcapil) untuk membuat dan memperpanjang KTP warga.
 
 ## Fitur Utama
